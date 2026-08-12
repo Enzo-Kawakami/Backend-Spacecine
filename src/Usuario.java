@@ -5,16 +5,16 @@ import java.time.LocalDate;
 public class Usuario {
 
 
-    public int id;
-    public String nome;
-    public String cpf;
-    public Genero genero;
-    public String SocialN;
-    public LocalDate dtnasc;
-    public String email;
-    public String fone;
-    public String cep;
-    public String senha;
+    private int id;
+    private String nome;
+    private String cpf;
+    private Genero genero;
+    private String SocialN;
+    private LocalDate dtnasc;
+    private String email;
+    private String fone;
+    private String cep;
+    private String senha;
 
     public int getId() {
         return id;
